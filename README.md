@@ -50,6 +50,13 @@ I propose the following changes to the symbol codes combining state and classifi
 | `event` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 | `for_moderation` | QUADROCOPTER| a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 | `cancelled` | QUADROCOPTER | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
+| `high_confidence` | ROCKET | a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+| `our` | ROCKET | a-f--A-W-M | SUAPWM----***** |![SFAPWM----*****](./SFAPWM----.png)|
+| `automoderated` | ROCKET | a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+| `event` | ROCKET | a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+| `for_moderation` | ROCKET| a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+| `cancelled` | ROCKET | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
+
 
 ## Track Identification
 
