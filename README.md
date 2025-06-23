@@ -24,16 +24,26 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 
 ## Verification Status Mapping
 
-| Original State | Standard Status | Description | Display Suffix | CoT Type | 2525C Symbol | 2525D SIDC |
-|----------------|-----------------|-------------|----------------|----------|--------------|------------|
-| `high_confidence` | VERIFIED | Human operator confirmed | None | a-u-G-U-C* | SUGPUC---- | 10030000151211000000 |
-| `our` | FRIENDLY | Human verified as friendly | None | a-f-G-U-C | SFGPUC---- | 10033000151211000000 |
-| `automoderated` | PROBABLE | Algorithm confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |
-| `event` | DETECTED | Sensor confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |
-| `for_moderation` | POSSIBLE | Sensor uncertain | -P | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |
-| `cancelled` | FALSE | Determined false positive | -X | a-p-G | SPGP------ | 10031500000000000000 |
+| Original State | Standard Status | Description | Display Suffix | CoT Type | 2525C Symbol | 2525D SIDC ||
+|----------------|-----------------|-------------|----------------|----------|--------------|------------|------------|
+| `high_confidence` | VERIFIED | Human operator confirmed | None | a-u-G-U-C* | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `our` | FRIENDLY | Human verified as friendly | None | a-f-G-U-C | SFGPUC---- | 10033000151211000000 |![SUGPUC----](./SFGPUC----.png)|
+| `automoderated` | PROBABLE | Algorithm confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `event` | DETECTED | Sensor confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `for_moderation` | POSSIBLE | Sensor uncertain | -P | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `cancelled` | FALSE | Determined false positive | -X | a-p-G | SPGP------ | 10031500000000000000 |![SUGPUC----](./SPGP------.png)|
 
 *Changes to a-h-G-U-C when hostile determination is made
+
+I propose the following changes to the symbol codes combining state and classification:
+| Original State | Classifications | CoT Type | 2525C Symbol | |
+|----------------|-----------------|----------|--------------|----------|
+| `high_confidence` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+| `our` | DRONE | a-f-A-C-F-q | SUAPMFQ---***** |![SFAPMFQ---*****](./SFAPMFQ---.png)|
+| `automoderated` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+| `event` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+| `for_moderation` | DRONE| a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+| `cancelled` | DRONE | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
 
 ## Track Identification
 
