@@ -39,23 +39,23 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 🔴 I propose the following changes to the symbol codes combining state and classification:
 || Original State | Classifications | CoT Type | 2525C Symbol ||
 |--|----------------|-----------------|----------|--------------|----------|
-|🔴| `high_confidence` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+|🔴| `high_confidence` | DRONE | a-h-A-C-F-q | SHAPMFQ---***** |![SHAPMFQ---*****](./SHAPMFQ---.png)|
 |🔴| `our` | DRONE | a-f-A-C-F-q | SUAPMFQ---***** |![SFAPMFQ---*****](./SFAPMFQ---.png)|
 |🔴| `automoderated` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `event` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `for_moderation` | DRONE| a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `cancelled` | DRONE | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
-|🔴| `high_confidence` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
+|🔴| `high_confidence` | QUADROCOPTER | a-h-A-C-H-q | SHAPMHQ---***** |![SHAPMHQ---*****](./SHAPMHQ---.png)|
 |🔴| `our` | QUADROCOPTER | a-f-A-C-H-q | SUAPMHQ---***** |![SFAPMHQ---*****](./SFAPMHQ---.png)|
 |🔴| `automoderated` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 |🔴| `event` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 |🔴| `for_moderation` | QUADROCOPTER| a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 |🔴| `cancelled` | QUADROCOPTER | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
-|🔴| `high_confidence` | ROCKET | a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
-|🔴| `our` | ROCKET | a-f--A-W-M | SUAPWM----***** |![SFAPWM----*****](./SFAPWM----.png)|
-|🔴| `automoderated` | ROCKET | a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
-|🔴| `event` | ROCKET | a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
-|🔴| `for_moderation` | ROCKET| a-u--A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+|🔴| `high_confidence` | ROCKET | a-h-A-W-M | SHAPWM----***** |![SHAPWM----*****](./SHAPWM----.png)|
+|🔴| `our` | ROCKET | a-f-A-W-M | SUAPWM----***** |![SFAPWM----*****](./SFAPWM----.png)|
+|🔴| `automoderated` | ROCKET | a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+|🔴| `event` | ROCKET | a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+|🔴| `for_moderation` | ROCKET| a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
 |🔴| `cancelled` | ROCKET | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
 
 
