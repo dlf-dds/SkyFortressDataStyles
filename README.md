@@ -248,13 +248,13 @@ Example: CUAS-ALPHA-550e8400-e29b-41d4-a716-446655440000
 
 🔴  Key event attributes:
 
-🔴   type='t-x-d-d'
+🔴 &nbsp;&nbsp;&nbsp;&nbsp;type='t-x-d-d'
 
-🔴   stale='STALE DTG' (set STALE DTG to current time in case systems do not honor the delete message)
+🔴 &nbsp;&nbsp;&nbsp;&nbsp;stale='STALE DTG' (set STALE DTG to current time in case systems do not honor the delete message)
 
 🔴  Key detail child tag:
 
-🔴 <__forcedelete/>
+🔴 &nbsp;&nbsp;&nbsp;&nbsp;<__forcedelete/>
 
 ```xml
 <?xml version='1.0' standalone='yes'?>
