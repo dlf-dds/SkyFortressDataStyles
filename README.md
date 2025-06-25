@@ -244,6 +244,45 @@ Example: CUAS-ALPHA-550e8400-e29b-41d4-a716-446655440000
 <remarks>False positive - Disregard</remarks>
 ```
 
+🔴  I propose the FALSE / cancelled detection event sends a Cursor on Target delete message
+
+🔴  Key event attributes:
+
+🔴   type='t-x-d-d'
+
+🔴   stale='STALE DTG' (set STALE DTG to current time in case systems do not honor the delete message)
+
+🔴  Key detail child tag:
+
+🔴 <__forcedelete/>
+
+```xml
+<?xml version='1.0' standalone='yes'?>
+<event how='m-a'
+       opex='OPEX VALUE'
+       qos='3-r-g'
+       access='ACCESS VALUE'
+       stale='STALE DTG'
+       start='START DTG'
+       time='TIME DTG'
+       type='t-x-d-d'
+       uid='TRACK_UID_VALUE'
+       version='2.0'>
+	<detail>
+		<link uid='TRACK_UID_VALUE'
+		      relation='none'
+		      type='none'/>
+		<__forcedelete/>
+	</detail>
+	<point le='9999999'
+	       ce='9999999'
+	       hae='1234.56'
+	       lon='12.3456'
+	       lat='23.4567'/>
+</event>
+```
+
+
 ## System Propagation Rules
 
 ### TAK to GCCS-J/GCCS-A
