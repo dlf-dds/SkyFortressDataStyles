@@ -25,7 +25,7 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 ## Verification Status Mapping
 
 | Original State | Standard Status | Description | Display Suffix | CoT Type | 2525C Symbol | 2525D SIDC ||
-|----------------|-----------------|-------------|----------------|----------|--------------|------------|------------|
+|----------------|-----------------|-------------|----------------|----------|--------------|------------|--|
 | `high_confidence` | VERIFIED | Human operator confirmed | None | a-u-G-U-C* | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
 | `our` | FRIENDLY | Human verified as friendly | None | a-f-G-U-C | SFGPUC---- | 10033000151211000000 |![SUGPUC----](./SFGPUC----.png)|
 | `automoderated` | PROBABLE | Algorithm confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
