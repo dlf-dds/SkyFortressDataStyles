@@ -46,13 +46,13 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 |🔴| `for_moderation` | DRONE| a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `cancelled` | DRONE | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
 |🔴| `high_confidence` | QUADROCOPTER | a-h-A-C-H-q | SHAPMHQ---***** |![SHAPMHQ---*****](./SHAPMHQ---.png)|
-|🔴| `our` | QUADROCOPTER | a-f-A-C-H-q | SUAPMHQ---***** |![SFAPMHQ---*****](./SFAPMHQ---.png)|
+|🔴| `our` | QUADROCOPTER | a-f-A-C-H-q | SFAPMHQ---***** |![SFAPMHQ---*****](./SFAPMHQ---.png)|
 |🔴| `automoderated` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 |🔴| `event` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 |🔴| `for_moderation` | QUADROCOPTER| a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 |🔴| `cancelled` | QUADROCOPTER | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
 |🔴| `high_confidence` | ROCKET | a-h-A-W-M | SHAPWM----***** |![SHAPWM----*****](./SHAPWM----.png)|
-|🔴| `our` | ROCKET | a-f-A-W-M | SUAPWM----***** |![SFAPWM----*****](./SFAPWM----.png)|
+|🔴| `our` | ROCKET | a-f-A-W-M | SFAPWM----***** |![SFAPWM----*****](./SFAPWM----.png)|
 |🔴| `automoderated` | ROCKET | a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
 |🔴| `event` | ROCKET | a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
 |🔴| `for_moderation` | ROCKET| a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
