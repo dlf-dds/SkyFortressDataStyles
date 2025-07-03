@@ -40,7 +40,7 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 || Original State | Classifications | CoT Type | 2525C Symbol ||
 |--|----------------|-----------------|----------|--------------|----------|
 |🔴| `high_confidence` | DRONE | a-h-A-C-F-q | SHAPMFQ---***** |![SHAPMFQ---*****](./SHAPMFQ---.png)|
-|🔴| `our` | DRONE | a-f-A-C-F-q | SUAPMFQ---***** |![SFAPMFQ---*****](./SFAPMFQ---.png)|
+|🔴| `our` | DRONE | a-f-A-C-F-q | SFAPMFQ---***** |![SFAPMFQ---*****](./SFAPMFQ---.png)|
 |🔴| `automoderated` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `event` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `for_moderation` | DRONE| a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
