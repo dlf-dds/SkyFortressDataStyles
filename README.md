@@ -36,7 +36,6 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 *Changes to a-h-G-U-C when hostile determination is made
 
 
-🔴 I propose the following changes to the symbol codes combining state and classification:
 || Original State | Classifications | CoT Type | 2525C Symbol ||
 |--|----------------|-----------------|----------|--------------|----------|
 |🔴| `high_confidence` | DRONE | a-h-A-C-F-q | SHAPMFQ---***** |![SHAPMFQ---*****](./SHAPMFQ---.png)|
@@ -244,7 +243,7 @@ Example: CUAS-ALPHA-550e8400-e29b-41d4-a716-446655440000
 <remarks>False positive - Disregard</remarks>
 ```
 
-🔴  I propose the FALSE / cancelled detection event sends a Cursor on Target delete message
+🔴  FALSE / cancelled detection event sends a Cursor on Target delete message
 
 🔴  Key event attributes:
 
