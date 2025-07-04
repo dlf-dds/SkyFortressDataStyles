@@ -24,16 +24,39 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 
 ## Verification Status Mapping
 
-| Original State | Standard Status | Description | Display Suffix | CoT Type | 2525C Symbol | 2525D SIDC |
-|----------------|-----------------|-------------|----------------|----------|--------------|------------|
-| `high_confidence` | VERIFIED | Human operator confirmed | None | a-u-G-U-C* | SUGPUC---- | 10030000151211000000 |
-| `our` | FRIENDLY | Human verified as friendly | None | a-f-G-U-C | SFGPUC---- | 10033000151211000000 |
-| `automoderated` | PROBABLE | Algorithm confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |
-| `event` | DETECTED | Sensor confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |
-| `for_moderation` | POSSIBLE | Sensor uncertain | -P | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |
-| `cancelled` | FALSE | Determined false positive | -X | a-p-G | SPGP------ | 10031500000000000000 |
+| Original State | Standard Status | Description | Display Suffix | CoT Type | 2525C Symbol | 2525D SIDC ||
+|----------------|-----------------|-------------|----------------|----------|--------------|------------|--|
+| `high_confidence` | VERIFIED | Human operator confirmed | None | a-u-G-U-C* | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `our` | FRIENDLY | Human verified as friendly | None | a-f-G-U-C | SFGPUC---- | 10033000151211000000 |![SUGPUC----](./SFGPUC----.png)|
+| `automoderated` | PROBABLE | Algorithm confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `event` | DETECTED | Sensor confirmed | None | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `for_moderation` | POSSIBLE | Sensor uncertain | -P | a-u-G-U-C | SUGPUC---- | 10030000151211000000 |![SUGPUC----](./SUGPUC----.png)|
+| `cancelled` | FALSE | Determined false positive | -X | a-p-G | SPGP------ | 10031500000000000000 |![SUGPUC----](./SPGP------.png)|
 
 *Changes to a-h-G-U-C when hostile determination is made
+
+
+|| Original State | Classifications | CoT Type | 2525C Symbol ||
+|--|----------------|-----------------|----------|--------------|----------|
+|🔴| `high_confidence` | DRONE | a-h-A-C-F-q | SHAPMFQ---***** |![SHAPMFQ---*****](./SHAPMFQ---.png)|
+|🔴| `our` | DRONE | a-f-A-C-F-q | SFAPMFQ---***** |![SFAPMFQ---*****](./SFAPMFQ---.png)|
+|🔴| `automoderated` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+|🔴| `event` | DRONE | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+|🔴| `for_moderation` | DRONE| a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+|🔴| `cancelled` | DRONE | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
+|🔴| `high_confidence` | QUADROCOPTER | a-h-A-C-H-q | SHAPMHQ---***** |![SHAPMHQ---*****](./SHAPMHQ---.png)|
+|🔴| `our` | QUADROCOPTER | a-f-A-C-H-q | SFAPMHQ---***** |![SFAPMHQ---*****](./SFAPMHQ---.png)|
+|🔴| `automoderated` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
+|🔴| `event` | QUADROCOPTER | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
+|🔴| `for_moderation` | QUADROCOPTER| a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
+|🔴| `cancelled` | QUADROCOPTER | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
+|🔴| `high_confidence` | ROCKET | a-h-A-W-M | SHAPWM----***** |![SHAPWM----*****](./SHAPWM----.png)|
+|🔴| `our` | ROCKET | a-f-A-W-M | SFAPWM----***** |![SFAPWM----*****](./SFAPWM----.png)|
+|🔴| `automoderated` | ROCKET | a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+|🔴| `event` | ROCKET | a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+|🔴| `for_moderation` | ROCKET| a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
+|🔴| `cancelled` | ROCKET | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
+
 
 ## Track Identification
 
@@ -219,6 +242,45 @@ Example: CUAS-ALPHA-550e8400-e29b-41d4-a716-446655440000
 <stale value="[immediate]"/> <!-- Remove quickly -->
 <remarks>False positive - Disregard</remarks>
 ```
+
+🔴  FALSE / cancelled detection event sends a Cursor on Target delete message
+
+🔴  Key event attributes:
+
+🔴 &nbsp;&nbsp;&nbsp;&nbsp;type='t-x-d-d'
+
+🔴 &nbsp;&nbsp;&nbsp;&nbsp;stale='STALE DTG' (set STALE DTG to current time in case systems do not honor the delete message)
+
+🔴  Key detail child tag:
+
+🔴 &nbsp;&nbsp;&nbsp;&nbsp;<__forcedelete/>
+
+```xml
+<?xml version='1.0' standalone='yes'?>
+<event how='m-a'
+       opex='OPEX VALUE'
+       qos='3-r-g'
+       access='ACCESS VALUE'
+       stale='STALE DTG'
+       start='START DTG'
+       time='TIME DTG'
+       type='t-x-d-d'
+       uid='TRACK_UID_VALUE'
+       version='2.0'>
+	<detail>
+		<link uid='TRACK_UID_VALUE'
+		      relation='none'
+		      type='none'/>
+		<__forcedelete/>
+	</detail>
+	<point le='9999999'
+	       ce='9999999'
+	       hae='1234.56'
+	       lon='12.3456'
+	       lat='23.4567'/>
+</event>
+```
+
 
 ## System Propagation Rules
 
