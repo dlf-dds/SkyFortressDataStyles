@@ -78,7 +78,7 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 |--|----------------|-----------------|-----------------|----------|--------------|----------|
 |🔴| `event` | DRONE | Helicopter |  |   | |
 |🔴| `event` | DRONE | Parody |  |  |  |
-|🔴| `event` | DRONE | Puma |  |  | SUAPMFQR--*****  |
+|🔴| `event` | DRONE | Puma |  | SUAPMFQR--*****  |  |
 |🔴| `event` | DRONE | ShahedHC |   |   | |
 |🔴| `event` | DRONE | ShahedLC |  |   | |
 |🔴| `event` | DRONE | SlowDrone | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
