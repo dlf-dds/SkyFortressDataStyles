@@ -79,8 +79,8 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 |🔴| `event` | DRONE | Helicopter | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
 |🔴| `event` | DRONE | Parody | a-u-A-W-D | SUAPWD----***** | ![SUAPWD----*****](./SUAPWD----.PNG) |
 |🔴| `event` | DRONE | Puma | a-u-A-C-F-q | SUAPMFQR--*****  |![SUAPMFQR--*****](./SUAPMFQR--.PNG)|
-|🔴| `event` | DRONE | ShahedHC |   |   | |
-|🔴| `event` | DRONE | ShahedLC |  |   | |
+|🔴| `event` | DRONE | ShahedHC | a-u-A-C-F-q | SUAPMFQA--*****  |![SUAPMFQA--*****](./SUAPMFQA--.PNG)|
+|🔴| `event` | DRONE | ShahedLC | a-u-A-C-F-q | SUAPMFQA--*****  |![SUAPMFQA--*****](./SUAPMFQA--.PNG)|
 |🔴| `event` | DRONE | SlowDrone | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `event` | DRONE | Unknown | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `event` | DRONE | Vanilla | a-u-A-C-F-q | SUAPMFQR--*****  |![SUAPMFQR--*****](./SUAPMFQR--.PNG)|
