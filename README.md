@@ -58,18 +58,20 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 |🔴| `cancelled` | ROCKET | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
 
 ## Types and Subtypes
-- **DRONE** - Generic unmanned aerial system
-- **droneType** *Helicopter*
+ **DRONE** - Generic unmanned aerial system
+- **droneType** Helicopter *can be a drone or manned helicopter (need to verify this assertion)*
 - **droneType** Parody *drone with radar reflectors that is designed to look like a Shaheed on radar*
-- **droneType** Puma *RQ-20 ISR drone*
+- **droneType** Puma *RQ-20 ISR drone (AeroVironment)*
 - **droneType** *ShahedHC*
 - **droneType** *ShahedLC*
 - **droneType** *SlowDrone*
 - **droneType** *Unknown*
-- **droneType** *Vanilla*  
-- **QUADROCOPTER** - Multi-rotor aircraft
+- **droneType** Vanilla *Ultra-long endurance ISR drone (Platform Aerospace)*
+  
+**QUADROCOPTER** - Multi-rotor aircraft
 - **quadrocopterType** None
-- **ROCKET** - Rocket-propelled projectile, currently jet engines are also classified as rocket
+  
+**ROCKET** - Rocket-propelled projectile, currently jet engines are also classified as rocket
 -  **rocketType** None
   
 ||Original State | Clasification (Type) | Subtype | CoT Type | 2525C Symbol ||
