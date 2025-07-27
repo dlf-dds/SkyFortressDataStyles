@@ -76,8 +76,8 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
   
 ||Original State | Clasification (Type) | Subtype | CoT Type | 2525C Symbol ||
 |--|----------------|-----------------|-----------------|----------|--------------|----------|
-|🔴| `event` | DRONE | Helicopter |  |   | |
-|🔴| `event` | DRONE | Parody |  |  |  |
+|🔴| `event` | DRONE | Helicopter | a-u-A-C-H-q | SUAPMHQ---***** |![SUAPMHQ---*****](./SUAPMHQ---.png)|
+|🔴| `event` | DRONE | Parody | a-u-A-W-D | SUAPWD----***** | ![SUAPWD----*****](./SUAPWD----.PNG) |
 |🔴| `event` | DRONE | Puma | a-u-A-C-F-q | SUAPMFQR--*****  |![SUAPMFQR--*****](./SUAPMFQR--.PNG)|
 |🔴| `event` | DRONE | ShahedHC |   |   | |
 |🔴| `event` | DRONE | ShahedLC |  |   | |
