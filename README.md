@@ -57,6 +57,24 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 |🔴| `for_moderation` | ROCKET| a-u-A-W-M | SUAPWM----***** |![SUAPWM----*****](./SUAPWM----.png)|
 |🔴| `cancelled` | ROCKET | a-p-G | SUZP------***** |![SUZP------*****](./SUZP------.png)|
 
+## Types and Subtypes
+- **DRONE** - Generic unmanned aerial system
+-  Helicopter, Parody, Puma, ShahedHC, ShahedLC, SlowDrone, Unknown, Vanilla
+- **QUADROCOPTER** - Multi-rotor aircraft  
+- **ROCKET** - Rocket-propelled projectile
+  
+||Original State | Clasification (Type) | Subtype | CoT Type | 2525C Symbol ||
+|--|----------------|-----------------|-----------------|----------|--------------|----------|
+|🔴| `event` | DRONE | Helicopter |  |   | |
+|🔴| `event` | DRONE | Parody |  |  |  |
+|🔴| `event` | DRONE | Puma |  |  |  |
+|🔴| `event` | DRONE | ShahedHC |   |   | |
+|🔴| `event` | DRONE | ShahedLC |  |   | |
+|🔴| `event` | DRONE | SlowDrone | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+|🔴| `event` | DRONE | Unknown | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
+|🔴| `event` | DRONE | Vanilla |   |   | |
+
+Parody: a smaller drone with radar reflectors that is designed to look like a Shaheed on radar 
 
 ## Track Identification
 
