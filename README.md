@@ -20,7 +20,7 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 ## Track Classifications
 - **DRONE** - Generic unmanned aerial system
 - **QUADROCOPTER** - Multi-rotor aircraft  
-- **ROCKET** - Rocket-propelled projectile
+- **ROCKET** - Rocket-propelled projectile, currently jet engines are also classified as rocket
 
 ## Verification Status Mapping
 
@@ -59,9 +59,18 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 
 ## Types and Subtypes
 - **DRONE** - Generic unmanned aerial system
--  Helicopter, Parody, Puma, ShahedHC, ShahedLC, SlowDrone, Unknown, Vanilla
-- **QUADROCOPTER** - Multi-rotor aircraft  
-- **ROCKET** - Rocket-propelled projectile
+- **droneType** *Helicopter*
+- **droneType** Parody *drone with radar reflectors that is designed to look like a Shaheed on radar*
+- **droneType** Puma *RQ-20 ISR drone*
+- **droneType** *ShahedHC*
+- **droneType** *ShahedLC*
+- **droneType** *SlowDrone*
+- **droneType** *Unknown*
+- **droneType** *Vanilla*  
+- **QUADROCOPTER** - Multi-rotor aircraft
+- **quadrocopterType** None
+- **ROCKET** - Rocket-propelled projectile, currently jet engines are also classified as rocket
+-  **rocketType** None
   
 ||Original State | Clasification (Type) | Subtype | CoT Type | 2525C Symbol ||
 |--|----------------|-----------------|-----------------|----------|--------------|----------|
@@ -74,7 +83,6 @@ This document defines data standards for integrating Counter-UAS (cUAS) detectio
 |🔴| `event` | DRONE | Unknown | a-u-A-C-F-q | SUAPMFQ---***** |![SUAPMFQ---*****](./SUAPMFQ---.png)|
 |🔴| `event` | DRONE | Vanilla |   |   | |
 
-Parody: a smaller drone with radar reflectors that is designed to look like a Shaheed on radar 
 
 ## Track Identification
 
